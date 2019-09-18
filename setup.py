@@ -43,7 +43,7 @@ setup(
 
     entry_points={
         'console_scripts': [
-            'dbtool = myapp.app:run'
+            'myapp = myapp.app:run'
         ],
         'myapp': [
             'somecommand = myapp.dummy:NoImplemented',
